@@ -1,0 +1,150 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #2c3e50;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header ul {
+  list-style: none;
+}
+
+header ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+section {
+  padding: 50px 20px;
+}
+
+#home {
+  background-color: #34495e;
+  color: #fff;
+  text-align: center;
+}
+
+#home h1 {
+  font-size: 36px;
+}
+
+#home p {
+  font-size: 18px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.btn-large {
+  margin-top: 20px;
+}
+
+.btn-small {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#about, #education, #interests, #projects, #contact {
+  background-color: #fff;
+  padding: 50px;
+  margin-top: 10px;
+}
+
+#languages {
+  background-color: #f9f9f9;
+}
+
+.language-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.language-item {
+  text-align: center;
+}
+
+.language-item img {
+  width: 50px;
+  height: 50px;
+}
+
+#education h2, #projects h2, #contact h2 {
+  text-align: center;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact form label {
+  margin-top: 10px;
+}
+
+#contact form input,
+#contact form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#contact form button {
+  margin-top: 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.response-message {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #28a745;
+}
+
+footer {
+  background-color: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
