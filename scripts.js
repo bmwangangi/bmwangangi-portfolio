@@ -17,9 +17,9 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     message: message
   })
   .then(function(response) {
-    document.getElementById('formResponse').textContent = 'Thank you for your message, ' + name + '!';
+    alert('Thank you for your message, ' + name + '!');
   }, function(error) {
-    document.getElementById('formResponse').textContent = 'Oops! Something went wrong. Please try again.';
+    alert('Oops! Something went wrong. Please try again.');
   });
 
   // Reset the form
