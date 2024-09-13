@@ -161,5 +161,21 @@ footer {
   padding: 10px 0;
 }
 
+/* Additional Styles for Projects Section */
+#projects .project {
+  margin-bottom: 30px; /* Adds space between projects */
+}
+
+#projects .btn {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 20px; /* Adds space between the paragraph and button */
+}
+
 /* Google Fonts Import */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
