@@ -177,5 +177,24 @@ footer {
   margin-top: 20px; /* Adds space between the paragraph and button */
 }
 
+#home {
+  background-color: #34495e;
+  color: #fff;
+  text-align: center;
+  background-image: url('images/luke-chesser-rCOWMC8qf8A-unsplash.jpg'); /* Replace with your image path */
+  background-size: cover; /* Ensures the image covers the entire section */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  padding: 100px 20px; /* Adjust padding as needed for spacing */
+}
+
+#home h1 {
+  font-size: 36px;
+}
+
+#home p {
+  font-size: 18px;
+}
+
 /* Google Fonts Import */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
